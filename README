@@ -1,5 +1,5 @@
 This is a small OSX command line tool that accepts r,g,b gamma 
-thresholds from UDP port 4047 by default. The version in
+thresholds from UDP port 4740 by default. The version in
 build/debug was compiled for OSX 10.6 (should work on 10.5 
 as well). Included is a processing sketch that will change
 the gamma values as a sin wave. The sketch requires the UDP
