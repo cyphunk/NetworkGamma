@@ -1,0 +1,13 @@
+This is a small OSX command line tool that accepts r,g,b gamma 
+thresholds from UDP port 4047 by default. The versoin in
+build/debug was compiled for OSX 10.6 (should work on 10.5 
+as well). Included is a processing sketch that will change
+the gamma values as a sin wave. The sketch requires the UDP
+library from:
+
+http://ubaa.net/shared/processing/udp/documentation/udp/udp_class_udp.htm
+
+do whatever you wish with the code. no license.
+
+nathan@squimp.com
+

@@ -1,0 +1,138 @@
+TNetworkGamma
+v7
+r0
+t338814351.176475
+cCheck dependencies
+cCompileC build/NetworkGamma.build/Debug/NetworkGamma.build/Objects-normal/x86_64/main.o /Users/user/projects/analogtimegate/NetworkGamma/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+cLd /Users/user/projects/analogtimegate/NetworkGamma/build/Debug/NetworkGamma normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BAC72CA00000000000000EE
+t1269592778
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h
+c000000004CC410E50000000000000477
+t1287917797
+s1143
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004D5A27900000000000003A54
+t1297754000
+s14932
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004CC41EA700000000000005FF
+t1287921319
+s1535
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/arpa/inet.h
+c000000004B738B160000000000001533
+t1265863446
+s5427
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/fcntl.h
+c000000004B738B7E00000000000003EA
+t1265863550
+s1002
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netinet/in.h
+c000000004CC3DE650000000000005414
+t1287904869
+s21524
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004B738B7F0000000000004174
+t1265863551
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/socket.h
+c000000004B88275500000000000059BC
+t1267214165
+s22972
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
+c000000004B8827560000000000002905
+t1267214166
+s10501
+
+N/Users/user/projects/analogtimegate/NetworkGamma/build/Debug/CGGamma_remake2
+t1317121472
+s10008
+
+N/Users/user/projects/analogtimegate/NetworkGamma/build/Debug/NetworkGamma
+t1317121551
+s10008
+
+N/Users/user/projects/analogtimegate/NetworkGamma/build/NetworkGamma.build/Debug/NetworkGamma.build/Objects-normal/x86_64/CGGamma_remake2.LinkFileList
+c000000004E81ADBE0000000000000080
+t1317121470
+s128
+
+N/Users/user/projects/analogtimegate/NetworkGamma/build/NetworkGamma.build/Debug/NetworkGamma.build/Objects-normal/x86_64/NetworkGamma.LinkFileList
+c000000004E81AE0C0000000000000080
+t1317121548
+s128
+
+N/Users/user/projects/analogtimegate/NetworkGamma/build/NetworkGamma.build/Debug/NetworkGamma.build/Objects-normal/x86_64/main.o
+t1317121550
+s8328
+
+N/Users/user/projects/analogtimegate/NetworkGamma/main.c
+c000000004E81965E000000000000090D
+t1317115486
+s2317
+i<stdio.h>
+i<Carbon/Carbon.h>
+i<ApplicationServices/ApplicationServices.h>
+i<sys/socket.h>
+i<netinet/in.h>
+i<fcntl.h>
+i<arpa/inet.h>
+i<sys/types.h>
+i"main.h"
+
+N/Users/user/projects/analogtimegate/NetworkGamma/main.h
+c000000004E8195FD0000000000000201
+t1317115389
+s513
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies338814348#338814348#0(0"0(0#1#0"8602573312#0"0#
+
+CCompileC build/NetworkGamma.build/Debug/NetworkGamma.build/Objects-normal/x86_64/main.o /Users/user/projects/analogtimegate/NetworkGamma/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+s338814348.859519
+e338814350.991832
+r1
+xCompileC
+xbuild/NetworkGamma.build/Debug/NetworkGamma.build/Objects-normal/x86_64/main.o
+x/Users/user/projects/analogtimegate/NetworkGamma/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/user/projects/analogtimegate/NetworkGamma/main.c: In function 'main':
+o/Users/user/projects/analogtimegate/NetworkGamma/main.c:64: warning: passing argument 5 of 'recvfrom' discards qualifiers from pointer target type
+lSLF07#2@63"Compile /Users/user/projects/analogtimegate/NetworkGamma/main.c338814348#338814351#0(224"/Users/user/projects/analogtimegate/NetworkGamma/main.c: In function 'main':/Users/user/projects/analogtimegate/NetworkGamma/main.c:64: warning: passing argument 5 of 'recvfrom' discards qualifiers from pointer target type1(22@77"Passing argument 5 of 'recvfrom' discards qualifiers from pointer target type338814350#77#147#0(6@55"/Users/user/projects/analogtimegate/NetworkGamma/main.c338808286#64#0#64#0#70"passing argument * of '*' discards qualifiers from pointer target type0(0#0#55"/Users/user/projects/analogtimegate/NetworkGamma/main.c8615853376#1470"    cd /Users/user/projects/analogtimegate/NetworkGamma    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/user/projects/analogtimegate/NetworkGamma/build/NetworkGamma.build/Debug/NetworkGamma.build/NetworkGamma-generated-files.hmap -I/Users/user/projects/analogtimegate/NetworkGamma/build/NetworkGamma.build/Debug/NetworkGamma.build/NetworkGamma-own-target-headers.hmap -I/Users/user/projects/analogtimegate/NetworkGamma/build/NetworkGamma.build/Debug/NetworkGamma.build/NetworkGamma-all-target-headers.hmap -iquote /Users/user/projects/analogtimegate/NetworkGamma/build/NetworkGamma.build/Debug/NetworkGamma.build/NetworkGamma-project-headers.hmap -F/Users/user/projects/analogtimegate/NetworkGamma/build/Debug -I/Users/user/projects/analogtimegate/NetworkGamma/build/Debug/include -I/Users/user/projects/analogtimegate/NetworkGamma/build/NetworkGamma.build/Debug/NetworkGamma.build/DerivedSources/x86_64 -I/Users/user/projects/analogtimegate/NetworkGamma/build/NetworkGamma.build/Debug/NetworkGamma.build/DerivedSources -c /Users/user/projects/analogtimegate/NetworkGamma/main.c -o /Users/user/projects/analogtimegate/NetworkGamma/build/NetworkGamma.build/Debug/NetworkGamma.build/Objects-normal/x86_64/main.o0#
+
+CLd /Users/user/projects/analogtimegate/NetworkGamma/build/Debug/CGGamma_remake2 normal x86_64
+s338814272.459082
+e338814272.525432
+r1
+xLd
+x/Users/user/projects/analogtimegate/NetworkGamma/build/Debug/CGGamma_remake2
+xnormal
+xx86_64
+lSLF07#2@81"Link /Users/user/projects/analogtimegate/NetworkGamma/build/Debug/CGGamma_remake2338814272#338814272#0(0"0(0#0#0"8611808032#601"    cd /Users/user/projects/analogtimegate/NetworkGamma    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/user/projects/analogtimegate/NetworkGamma/build/Debug -F/Users/user/projects/analogtimegate/NetworkGamma/build/Debug -filelist /Users/user/projects/analogtimegate/NetworkGamma/build/NetworkGamma.build/Debug/NetworkGamma.build/Objects-normal/x86_64/CGGamma_remake2.LinkFileList -mmacosx-version-min=10.6 -framework Carbon -prebind -o /Users/user/projects/analogtimegate/NetworkGamma/build/Debug/CGGamma_remake20#
+
+CLd /Users/user/projects/analogtimegate/NetworkGamma/build/Debug/NetworkGamma normal x86_64
+s338814350.992034
+e338814351.176415
+r1
+xLd
+x/Users/user/projects/analogtimegate/NetworkGamma/build/Debug/NetworkGamma
+xnormal
+xx86_64
+lSLF07#2@78"Link /Users/user/projects/analogtimegate/NetworkGamma/build/Debug/NetworkGamma338814350#338814351#0(0"0(0#0#0"8616809728#595"    cd /Users/user/projects/analogtimegate/NetworkGamma    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/user/projects/analogtimegate/NetworkGamma/build/Debug -F/Users/user/projects/analogtimegate/NetworkGamma/build/Debug -filelist /Users/user/projects/analogtimegate/NetworkGamma/build/NetworkGamma.build/Debug/NetworkGamma.build/Objects-normal/x86_64/NetworkGamma.LinkFileList -mmacosx-version-min=10.6 -framework Carbon -prebind -o /Users/user/projects/analogtimegate/NetworkGamma/build/Debug/NetworkGamma0#
+

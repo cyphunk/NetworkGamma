@@ -1,0 +1,2 @@
+/Users/user/projects/analogtimegate/NetworkGamma/main.c: In function 'main':
+/Users/user/projects/analogtimegate/NetworkGamma/main.c:66: warning: passing argument 5 of 'recvfrom' discards qualifiers from pointer target type
