@@ -9,7 +9,7 @@ http://ubaa.net/shared/processing/udp/documentation/udp/udp_class_udp.htm
 
 If you do not want to use processing you can send the values
 from another terminal with:
- echo -ne '\x7f\x7f\x00' | nc -u localhost 4047
+ echo -ne '\x7f\x7f\x00' | nc -u localhost 4740
 
 Remember, at the moment 127 (7f) is the highest value
 accepted. (fixplease?)
