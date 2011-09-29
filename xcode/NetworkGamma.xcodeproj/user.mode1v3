@@ -266,17 +266,13 @@
 								<string>08FB7794FE84155DC02AAC07</string>
 								<string>08FB7795FE84155DC02AAC07</string>
 								<string>1C37FBAC04509CD000000102</string>
-								<string>CE3B38861431E51C00F61DB6</string>
-								<string>CE3B38871431E51C00F61DB6</string>
-								<string>CE3B38881431E51C00F61DB6</string>
-								<string>CE3B38891431E51C00F61DB6</string>
 								<string>1C37FAAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>2</integer>
+									<integer>3</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -319,7 +315,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>main.h</string>
+								<string>main.c</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -327,18 +323,21 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>main.h</string>
+										<string>main.c</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CE3B389F1431E5D700F61DB6</string>
+										<string>CEB662FA14344912005CA1AE</string>
 										<key>history</key>
 										<array>
 											<string>CE3E4C2014317B77003E1D23</string>
 											<string>CE3E4C801431848D003E1D23</string>
 											<string>CE3B388A1431E51C00F61DB6</string>
-											<string>CE3B389D1431E5D700F61DB6</string>
-											<string>CE3B389E1431E5D700F61DB6</string>
+											<string>CEB662CA1431FF2A005CA1AE</string>
+											<string>CEB662CC1431FF2A005CA1AE</string>
+											<string>CEB662E1143446F9005CA1AE</string>
+											<string>CEB662F814344912005CA1AE</string>
+											<string>CEB662F914344912005CA1AE</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -350,14 +349,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {982, 355}}</string>
+								<string>{{0, 0}, {982, 343}}</string>
 								<key>RubberWindowFrame</key>
 								<string>3 128 1190 550 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>355pt</string>
+							<string>343pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -370,14 +369,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 360}, {982, 149}}</string>
+								<string>{{0, 348}, {982, 161}}</string>
 								<key>RubberWindowFrame</key>
 								<string>3 128 1190 550 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>149pt</string>
+							<string>161pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -396,9 +395,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>CE3B37B41431CB8100F61DB6</string>
+				<string>CEB662D9143446A5005CA1AE</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>CE3B37B51431CB8100F61DB6</string>
+				<string>CEB662DA143446A5005CA1AE</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -537,7 +536,7 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>CE3E4A2514315E90003E1D23</string>
-		<string>/Users/user/projects/analogtimegate/NetworkGamma/NetworkGamma.xcodeproj</string>
+		<string>/Users/user/git/NetworkGamma/xcode/NetworkGamma.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>3 128 1190 550 0 0 1280 778 </string>
@@ -561,7 +560,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>main.c</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -619,7 +618,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>CE3E4A2514315E90003E1D23</string>
-				<string>CE3B37B61431CB8100F61DB6</string>
+				<string>CEB662DB143446A5005CA1AE</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

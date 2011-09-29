@@ -1,10 +1,10 @@
 TNetworkGamma
 v7
 r0
-t338814425.506829
+t338970829.851214
 cCheck dependencies
-cCompileC build/NetworkGamma.build/Debug/NetworkGamma.build/Objects-normal/x86_64/main.o /Users/user/projects/analogtimegate/NetworkGamma/main.c normal x86_64 c com.apple.compilers.gcc.4_2
-cLd /Users/user/projects/analogtimegate/NetworkGamma/build/Debug/NetworkGamma normal x86_64
+cCompileC build/NetworkGamma.build/Debug/NetworkGamma.build/Objects-normal/x86_64/main.o /Users/user/git/NetworkGamma/xcode/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+cLd /Users/user/git/NetworkGamma/xcode/build/Debug/NetworkGamma normal x86_64
 
 N/Developer/SDKs/MacOSX10.6.sdk
 c000000004BAC72CA00000000000000EE
@@ -56,6 +56,38 @@ c000000004B8827560000000000002905
 t1267214166
 s10501
 
+N/Users/user/git/NetworkGamma/xcode/build/Debug/NetworkGamma
+t1317278029
+s10056
+
+N/Users/user/git/NetworkGamma/xcode/build/NetworkGamma.build/Debug/NetworkGamma.build/Objects-normal/x86_64/NetworkGamma.LinkFileList
+c000000004E840F6E0000000000000072
+t1317277550
+s114
+
+N/Users/user/git/NetworkGamma/xcode/build/NetworkGamma.build/Debug/NetworkGamma.build/Objects-normal/x86_64/main.o
+t1317278029
+s8420
+
+N/Users/user/git/NetworkGamma/xcode/main.c
+c000000004E84113600000000000009CB
+t1317278006
+s2507
+i<stdio.h>
+i<Carbon/Carbon.h>
+i<ApplicationServices/ApplicationServices.h>
+i<sys/socket.h>
+i<netinet/in.h>
+i<fcntl.h>
+i<arpa/inet.h>
+i<sys/types.h>
+i"main.h"
+
+N/Users/user/git/NetworkGamma/xcode/main.h
+c000000004E81AE55000000000000026C
+t1317121621
+s620
+
 N/Users/user/projects/analogtimegate/NetworkGamma/build/Debug/CGGamma_remake2
 t1317121472
 s10008
@@ -99,7 +131,24 @@ s620
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies338814422#338814422#0(0"0(0#1#0"8601998432#0"0#
+lSLF07#2@18"Check dependencies338970828#338970828#0(0"0(0#1#0"8616500000#0"0#
+
+CCompileC build/NetworkGamma.build/Debug/NetworkGamma.build/Objects-normal/x86_64/main.o /Users/user/git/NetworkGamma/xcode/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+s338970828.419011
+e338970829.811835
+r1
+xCompileC
+xbuild/NetworkGamma.build/Debug/NetworkGamma.build/Objects-normal/x86_64/main.o
+x/Users/user/git/NetworkGamma/xcode/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/user/git/NetworkGamma/xcode/main.c: In function 'sigcatch':
+o/Users/user/git/NetworkGamma/xcode/main.c:21: warning: implicit declaration of function 'CGDisplayForceToGray'
+o/Users/user/git/NetworkGamma/xcode/main.c: In function 'main':
+o/Users/user/git/NetworkGamma/xcode/main.c:69: warning: passing argument 5 of 'recvfrom' discards qualifiers from pointer target type
+lSLF07#2@49"Compile /Users/user/git/NetworkGamma/xcode/main.c338970828#338970829#0(374"/Users/user/git/NetworkGamma/xcode/main.c: In function 'sigcatch':/Users/user/git/NetworkGamma/xcode/main.c:21: warning: implicit declaration of function 'CGDisplayForceToGray'/Users/user/git/NetworkGamma/xcode/main.c: In function 'main':/Users/user/git/NetworkGamma/xcode/main.c:69: warning: passing argument 5 of 'recvfrom' discards qualifiers from pointer target type2(22@55"Implicit declaration of function 'CGDisplayForceToGray'338970829#67#111#0(6@41"/Users/user/git/NetworkGamma/xcode/main.c338970806#21#0#21#0#36"implicit declaration of function '*'0(22@77"Passing argument 5 of 'recvfrom' discards qualifiers from pointer target type338970829#241#133#0(6@41"/Users/user/git/NetworkGamma/xcode/main.c338970806#69#0#69#0#70"passing argument * of '*' discards qualifiers from pointer target type0(0#0#41"/Users/user/git/NetworkGamma/xcode/main.c8613929152#1316"    cd /Users/user/git/NetworkGamma/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/user/git/NetworkGamma/xcode/build/NetworkGamma.build/Debug/NetworkGamma.build/NetworkGamma-generated-files.hmap -I/Users/user/git/NetworkGamma/xcode/build/NetworkGamma.build/Debug/NetworkGamma.build/NetworkGamma-own-target-headers.hmap -I/Users/user/git/NetworkGamma/xcode/build/NetworkGamma.build/Debug/NetworkGamma.build/NetworkGamma-all-target-headers.hmap -iquote /Users/user/git/NetworkGamma/xcode/build/NetworkGamma.build/Debug/NetworkGamma.build/NetworkGamma-project-headers.hmap -F/Users/user/git/NetworkGamma/xcode/build/Debug -I/Users/user/git/NetworkGamma/xcode/build/Debug/include -I/Users/user/git/NetworkGamma/xcode/build/NetworkGamma.build/Debug/NetworkGamma.build/DerivedSources/x86_64 -I/Users/user/git/NetworkGamma/xcode/build/NetworkGamma.build/Debug/NetworkGamma.build/DerivedSources -c /Users/user/git/NetworkGamma/xcode/main.c -o /Users/user/git/NetworkGamma/xcode/build/NetworkGamma.build/Debug/NetworkGamma.build/Objects-normal/x86_64/main.o0#
 
 CCompileC build/NetworkGamma.build/Debug/NetworkGamma.build/Objects-normal/x86_64/main.o /Users/user/projects/analogtimegate/NetworkGamma/main.c normal x86_64 c com.apple.compilers.gcc.4_2
 s338814422.861372
@@ -115,6 +164,16 @@ xcom.apple.compilers.gcc.4_2
 o/Users/user/projects/analogtimegate/NetworkGamma/main.c: In function 'main':
 o/Users/user/projects/analogtimegate/NetworkGamma/main.c:66: warning: passing argument 5 of 'recvfrom' discards qualifiers from pointer target type
 lSLF07#2@63"Compile /Users/user/projects/analogtimegate/NetworkGamma/main.c338814422#338814425#0(224"/Users/user/projects/analogtimegate/NetworkGamma/main.c: In function 'main':/Users/user/projects/analogtimegate/NetworkGamma/main.c:66: warning: passing argument 5 of 'recvfrom' discards qualifiers from pointer target type1(22@77"Passing argument 5 of 'recvfrom' discards qualifiers from pointer target type338814425#77#147#0(6@55"/Users/user/projects/analogtimegate/NetworkGamma/main.c338814416#66#0#66#0#70"passing argument * of '*' discards qualifiers from pointer target type0(0#0#55"/Users/user/projects/analogtimegate/NetworkGamma/main.c8590046208#1470"    cd /Users/user/projects/analogtimegate/NetworkGamma    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/user/projects/analogtimegate/NetworkGamma/build/NetworkGamma.build/Debug/NetworkGamma.build/NetworkGamma-generated-files.hmap -I/Users/user/projects/analogtimegate/NetworkGamma/build/NetworkGamma.build/Debug/NetworkGamma.build/NetworkGamma-own-target-headers.hmap -I/Users/user/projects/analogtimegate/NetworkGamma/build/NetworkGamma.build/Debug/NetworkGamma.build/NetworkGamma-all-target-headers.hmap -iquote /Users/user/projects/analogtimegate/NetworkGamma/build/NetworkGamma.build/Debug/NetworkGamma.build/NetworkGamma-project-headers.hmap -F/Users/user/projects/analogtimegate/NetworkGamma/build/Debug -I/Users/user/projects/analogtimegate/NetworkGamma/build/Debug/include -I/Users/user/projects/analogtimegate/NetworkGamma/build/NetworkGamma.build/Debug/NetworkGamma.build/DerivedSources/x86_64 -I/Users/user/projects/analogtimegate/NetworkGamma/build/NetworkGamma.build/Debug/NetworkGamma.build/DerivedSources -c /Users/user/projects/analogtimegate/NetworkGamma/main.c -o /Users/user/projects/analogtimegate/NetworkGamma/build/NetworkGamma.build/Debug/NetworkGamma.build/Objects-normal/x86_64/main.o0#
+
+CLd /Users/user/git/NetworkGamma/xcode/build/Debug/NetworkGamma normal x86_64
+s338970829.811923
+e338970829.851164
+r1
+xLd
+x/Users/user/git/NetworkGamma/xcode/build/Debug/NetworkGamma
+xnormal
+xx86_64
+lSLF07#2@64"Link /Users/user/git/NetworkGamma/xcode/build/Debug/NetworkGamma338970829#338970829#0(0"0(0#0#0"8613561728#525"    cd /Users/user/git/NetworkGamma/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/user/git/NetworkGamma/xcode/build/Debug -F/Users/user/git/NetworkGamma/xcode/build/Debug -filelist /Users/user/git/NetworkGamma/xcode/build/NetworkGamma.build/Debug/NetworkGamma.build/Objects-normal/x86_64/NetworkGamma.LinkFileList -mmacosx-version-min=10.6 -framework Carbon -prebind -o /Users/user/git/NetworkGamma/xcode/build/Debug/NetworkGamma0#
 
 CLd /Users/user/projects/analogtimegate/NetworkGamma/build/Debug/CGGamma_remake2 normal x86_64
 s338814272.459082

@@ -16,8 +16,9 @@
 int sock;
 
 void sigcatch(int sig) {
-	printf("You have presses Ctrl-C , please press again to exit");
+	printf("You have pressed Ctrl-C , please press again to exit");
 	if (sock != -1) close(sock);	
+	CGDisplayForceToGray(false);
 	(void) signal(SIGINT, SIG_DFL);
 }
 
@@ -37,7 +38,7 @@ int main (int argc, const char * argv[]) {
 										 &greenMin, &greenMax, &greenGamma,
 										 &blueMin, &blueMax, &blueGamma);
 	
-	//(void) signal(SIGINT, sigcatch);
+	(void) signal(SIGINT, sigcatch);
 
 	// Setup network:
 	int port = 4740;
@@ -56,6 +57,8 @@ int main (int argc, const char * argv[]) {
 		return false;
 	}
 
+	// just for the hell of it
+	CGDisplayForceToGray(true);
 	
 	while ( true ) // wait for packet
 	{
